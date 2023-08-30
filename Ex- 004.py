@@ -1,0 +1,11 @@
+random = input('Digite algo:')
+print(f' A classe do que foi digitado é:', {type(random)})
+print(f'"Random" é numérico?:', {random.isnumeric()})
+print(f'"Random" é alfabético?:', {random.isalpha()})
+print(f'"Random" é alfanumérico?:', {random.isalnum()})
+print(f'"Random" foi escrito apenas com letras maiúsculas?:', {random.isupper()})
+print(f'"Random" foi escrito apenas com letras maiúsculas?:', {random.islower()})
+print(f'"Random" é um espaço?:', {random.isspace()})
+print(f'"Random" é um digito?:', {random.isdigit()})
+print(f'"Random" está Capitalizado?:', {random.istitle()})
+ 
